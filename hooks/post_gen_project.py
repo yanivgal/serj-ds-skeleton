@@ -7,5 +7,12 @@ def remove_placeholders():
             if file == ".gitkeep":
                 os.remove(os.path.join(root, file))
 
+def rename_gitignore():
+    """Renames the gitignore file to .gitignore"""
+    if os.path.exists("gitignore"):
+        os.rename("gitignore", ".gitignore")
+
+
 if __name__ == "__main__":
     remove_placeholders()
+    rename_gitignore()
