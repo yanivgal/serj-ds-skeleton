@@ -8,7 +8,16 @@ This repository provides a basic skeleton for data science projects, inspired by
 - Includes placeholders for preprocessing, training, prediction, and analysis.
 
 ## Usage
-Clone this repository or use it as a Cookiecutter template to kickstart your next data science project.
+
+1. Install Cookiecutter (if not already installed):
+```bash
+pip install cookiecutter
+```
+
+1. Use the Template
+```bash
+cookiecutter https://github.com/yanivgal/serj-ds-skeleton
+```
 
 ## Why This Exists
 Inspired by Serj's practical lessons, this project aims to make it easier for data scientists to focus on their work without worrying about project setup.
