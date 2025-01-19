@@ -38,12 +38,6 @@ build/
 dist/
 *.egg-info/
 
-# Generated files
-models/
-data/
-results/
-archived_experiments/
-
 # System files
 .DS_Store
 Thumbs.db
